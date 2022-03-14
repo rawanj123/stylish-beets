@@ -13,3 +13,12 @@ html {
 h1 {
   color: #3f1622;
 }
+
+a,
+a:link {
+  color: #8f2440;
+}
+
+a:hover {
+  color: #3f1622;
+}
