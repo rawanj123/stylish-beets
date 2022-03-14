@@ -5,3 +5,7 @@ html {
 *, *::before, *::after {
   box-sizing: inherit;
 }
+
+h1 {
+  color: #3f1622;
+}
