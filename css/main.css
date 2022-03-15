@@ -1,8 +1,6 @@
 html {
   box-sizing: border-box;
   background-color: #c9b5ab;
-  font-family: "PT Sans", sans-serif;
-  font-weight: bold;
   line-height: 1.5;
 }
 
@@ -12,6 +10,8 @@ html {
 
 h1 {
   color: #3f1622;
+  font-weight: bold;
+  font-family: "PT Sans", sans-serif;
 }
 
 a,
@@ -29,11 +29,31 @@ nav li {
   list-style-type: none;
   line-height: 1.5;
   font-size: 1.125rem;
+  font-weight: bold;
+  font-family: "PT Sans", sans-serif;
 }
 
 figcaption {
-  font-family: 'PT Serif', serif;
+  font-family: "PT Serif", serif;
   font-style: italic;
   text-align: center;
   font-weight: normal;
+}
+
+p {
+
+}
+
+blockquote {
+  font-family: "PT Serif", serif;
+  font-style: italic;
+  font-weight: lighter;
+  font-size: 1.5rem;
+}
+
+blockquote > footer {
+  font-family: "PT Serif", serif;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 0.8rem;
 }
