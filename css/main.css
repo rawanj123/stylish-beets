@@ -28,7 +28,7 @@ a:hover {
 nav li {
   list-style-type: none;
   line-height: 1.5;
-  font-size: 1.125rem;
+  font-size: 1rem;
   font-weight: bold;
   font-family: "PT Sans", sans-serif;
 }
@@ -40,14 +40,10 @@ figcaption {
   font-weight: normal;
 }
 
-p {
-
-}
-
 blockquote {
+  font-weight: normal;
   font-family: "PT Serif", serif;
   font-style: italic;
-  font-weight: lighter;
   font-size: 1.5rem;
 }
 
@@ -56,4 +52,25 @@ blockquote > footer {
   font-weight: normal;
   font-style: normal;
   font-size: 0.8rem;
+}
+
+p:first-of-type {
+  font-weight: bold;
+  font-size: 1.125em;
+}
+
+h1, h2 {
+  color: #3f1622;
+}
+
+.varieties {
+  list-style-type: lower-greek;
+}
+
+dl dt {
+  font-weight: bold;
+}
+
+aside li {
+  list-style-type: circle;
 }
