@@ -3,7 +3,7 @@ html {
   background-color: #c9b5ab;
   font-family: "PT Sans", sans-serif;
   font-weight: bold;
-  line-height: 1.125;
+  line-height: 1.5;
 }
 
 *, *::before, *::after {
@@ -23,4 +23,10 @@ a:link {
 a:hover {
   color: #3f1622;
   text-decoration: underline;
+}
+
+nav li {
+  list-style-type: none;
+  line-height: 1.5;
+  font-size: 1.125rem;
 }
