@@ -50,8 +50,8 @@ blockquote {
 blockquote > footer {
   font-family: "PT Serif", serif;
   font-weight: normal;
+  font-size: .8rem;
   font-style: normal;
-  font-size: 0.8rem;
 }
 
 p:first-of-type {
